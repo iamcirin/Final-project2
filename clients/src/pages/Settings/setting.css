@@ -1,0 +1,113 @@
+.settingWrapper{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.settingBar{
+    height: 3.5rem;
+    background-color: rgb(7, 12, 58);
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    
+   
+}
+
+.settingBarTitle{
+    background-color: rgb(243, 16, 54);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.settingContainer{
+    height: calc(100vh - 3.5rem);
+    display: flex;
+    gap: 1%;
+
+}
+
+.settingSidebar{
+    width: 30%;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+.settingImg{
+    width: 100px;
+    height: 100px;
+    border-radius:50% ;
+    object-fit: cover;
+}
+.settingSidebarInfo{
+    margin: 0 auto;
+}
+
+.settingList{
+   
+    margin-top: 35px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.settingItem{
+    list-style: none;
+    font-size: 1.1rem;
+    /* padding-left: 0; */
+}
+
+.borderLeft{
+    border-left: 2px solid rgb(5, 4, 29);
+}
+
+.settingMain{
+    width: 69%;
+    height: 100%;
+    background-color: #ffff;
+    border-left: 1.5px solid;
+    display: flex;
+        /* align-items: center; */
+        align-items: center;
+        flex-direction:column;
+        border-radius: 10px;
+}
+.settingMainContainer{
+    margin-top: 25px;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.settingMainOption{
+box-shadow: 0.2px 0.5px 5px rgba(0, 0, 0, 0.315);
+padding: 10px 10px;
+border-radius: 10px;
+}
+
+.settingMainOption input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1px 0px 1px 8px;
+
+}
+
+.changes{
+    padding: 3px 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(11, 11, 77);
+    color: white;
+}
+
+.settingMainOption > div{
+    color: rgb(243, 16, 54);
+}
